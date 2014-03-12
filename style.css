@@ -1,0 +1,45 @@
+/* Reset */
+@import url(css/reset.css);
+
+/* Default styles */
+@import url(css/font.css);
+
+/* Font awesome */
+@import url(css/font-awesome.css);
+
+/* Default styles */
+@import url(css/default.css);
+
+/* Buttons */
+@import url(css/button.css);
+
+/* Alerts */
+@import url(css/alert.css);
+
+/* Forms */
+@import url(css/form.css);
+
+/* Forms */
+@import url(css/navigation.css);
+
+/*
+ | ------------------------------------------------------------
+ | Application
+ | ------------------------------------------------------------
+ */
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+}
+
+header {
+    width: 800px;
+    margin: 10px 0 10px -15px;
+    padding: 10px 15px;
+    background-color: #BF7E24;
+    color: #FFF;
+}
+
+.font-awesome { font-size: 18px; }
+    .font-awesome i { padding-right: 10px; }

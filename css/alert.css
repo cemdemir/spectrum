@@ -1,0 +1,30 @@
+/*
+ | Buttons
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.alert-red {
+    background-color: #FFBABA;
+    border-color: #D8000C;
+}
+
+.alert-green {
+    background-color: #DFF2BF;
+    color: #4F8A10;
+}
+
+.alert-orange {
+    background-color: #FEEFB3;
+    color: #9F6000;
+}
+
+.alert-blue {
+    background-color: #BDE5F8;
+    color: #00529B;
+}

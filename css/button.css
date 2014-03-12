@@ -1,0 +1,68 @@
+/*
+ | Buttons
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+.button, a.button {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    font-family: tahoma;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.15s ease-in;
+}
+
+.button:hover, a.button:hover {
+    transition: all 0.15s ease-in;
+    background-color: #000;
+}
+
+.small, a.small {
+    padding: 6px;
+}
+
+.medium, a.medium {
+    padding: 10px;
+}
+
+.large, a.large {
+    padding: 14px;
+}
+
+.orange, a.orange {
+    background-color: #BF7E24;
+    color: #FFF;
+}
+
+.purple, a.purple {
+    background-color: #330099;
+    color: #FFF;
+}
+
+.blue, a.blue {
+    background-color: #0066CC;
+    color: #FFF;
+}
+
+.green, a.green {
+    background-color: #009933;
+    color: #FFF;
+}
+
+.gray, a.gray {
+    background-color: #666666;
+    color: #FFF;
+}
+
+.white, a.white {
+    background-color: #FFFFFF;
+    color: #666;
+}
+
+.bold, a.bold {
+    font-weight: bold;
+}

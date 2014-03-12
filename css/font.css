@@ -1,0 +1,15 @@
+/*
+ | Font faces
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+@font-face {
+	font-family:'cuprum';
+	src:url('../font/cuprum/cuprum-webfont.eot');
+	src:url('../font/cuprum/cuprum-webfont.eot?#iefix') format('eot'),
+	    url('../font/cuprum/cuprum-webfont.woff') format('woff'),
+	    url('../font/cuprum/cuprum-webfont.ttf') format('truetype'),
+	    url('../font/cuprum/cuprum-webfont.svg#webfontFxIVzCNV') format('svg');
+	font-weight:normal; font-style:normal;
+}

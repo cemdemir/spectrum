@@ -1,0 +1,47 @@
+/*
+ | Form elements
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+form {}
+
+label {
+	display: block;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+input[type=text], input[type=password], input[type=checkbox], input[type=radio], select {
+	margin: 0;
+}
+
+input[type=text], input[type=password] {
+	width: 175px;
+	height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+
+input[type=checkbox], input[type=radio] {}
+
+select {
+	width: 175px;
+	height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+
+input[type=submit], button {
+    cursor: pointer;
+}
+
+input[type=submit] {}
+
+button {}
