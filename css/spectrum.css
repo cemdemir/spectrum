@@ -1,0 +1,23 @@
+/* Reset */
+@import url(reset.css);
+
+/* Custom fonts */
+@import url(font.css);
+
+/* Font awesome */
+@import url(font-awesome.css);
+
+/* Default styles */
+@import url(default.css);
+
+/* Buttons */
+@import url(button.css);
+
+/* Alerts */
+@import url(alert.css);
+
+/* Forms */
+@import url(form.css);
+
+/* Forms */
+@import url(navigation.css);

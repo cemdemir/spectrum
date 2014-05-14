@@ -1,26 +1,4 @@
-/* Reset */
-@import url(css/reset.css);
-
-/* Custom fonts */
-@import url(css/font.css);
-
-/* Font awesome */
-@import url(css/font-awesome.css);
-
-/* Default styles */
-@import url(css/default.css);
-
-/* Buttons */
-@import url(css/button.css);
-
-/* Alerts */
-@import url(css/alert.css);
-
-/* Forms */
-@import url(css/form.css);
-
-/* Forms */
-@import url(css/navigation.css);
+@import url(css/spectrum.css);
 
 /*
  | ------------------------------------------------------------
@@ -28,14 +6,49 @@
  | ------------------------------------------------------------
  */
 
-body {
-	margin: 30px 0;
-}
+body { margin: 30px 0; }
 
-.wrapper {
-    width: 900px;
-    margin: auto;
-}
+.wrapper { width: 900px; margin: auto; }
 
 .font-awesome { font-size: 18px; }
     .font-awesome i { padding-right: 10px; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	body { margin: 30px; }
+	.wrapper { width: 100%; }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	body { margin: 30px; }
+	.wrapper { width: 100%; }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	body { margin: 30px; }
+	.wrapper { width: 100%; }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	body { margin: 30px; }
+	.wrapper { width: 100%; }
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+	body { margin: 30px; }
+	.wrapper { width: 100%; }
+
+}

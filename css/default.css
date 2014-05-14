@@ -39,54 +39,103 @@ hr { height: 3px; background-color: #EBEBEB; border: none; }
 
 .clear:after { content: "."; visibility: hidden; display: block; height: 0; clear: both; }
 
-/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens - 175 */
 @media only screen and (max-width : 1200px) {
 
-	
+	body { font-size: 20px; }
+
+	h1 { font-size: 56px; }
+	h2 { font-size: 46px; }
+	h3 { font-size: 36px; }
+	h4 { font-size: 26px; }
+
+	h1, h2, h3, h4, h5, h6 { padding: 12px 0; }
+
+	p { padding: 12px 0; }
+
+	ol, ul 	{ padding: 12px 0; }
+	li 		{ padding: 6px 0; }
+
+	table 	{ margin: 12px 0 18px 0; }
+	td 		{ padding: 12px; }
+
+	hr { height: 6px; }
 
 }
 
-/* Medium Devices, Desktops */
+/* Medium Devices, Desktops - 200 - iPhone 5S */
 @media only screen and (max-width : 992px) {
 
-	body { font-size: 40px; }
+	body { font-size: 26px; }
 
-	h1 { font-size: 80px; }
-	h2 { font-size: 70px; }
-	h3 { font-size: 60px; }
-	h4 { font-size: 50px; }
+	h1 { font-size: 64px; }
+	h2 { font-size: 54px; }
+	h3 { font-size: 44px; }
+	h4 { font-size: 34px; }
 
-	h1, h2, h3, h4, h5, h6 { padding: 20px 0; }
+	h1, h2, h3, h4, h5, h6 { padding: 16px 0; }
 
-	p { padding: 20px 0; }
+	p { padding: 16px 0; }
 
-	ol, ul 	{ padding: 20px 0; }
+	ol, ul 	{ padding: 16px 0; }
 	li 		{ padding: 8px 0; }
 
-	table 	{ margin: 20px 0 30px 0; }
-	td 		{ padding: 20px; }
+	table 	{ margin: 16px 0 24px 0; }
+	td 		{ padding: 16px; }
 
-	hr { height: 10px; }
+	hr { height: 8px; }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-	
+	body { font-size: 20px;  }
+
+	h1 { font-size: 56px; }
+	h2 { font-size: 46px; }
+	h3 { font-size: 36px; }
+	h4 { font-size: 26px; }
+
+	h1, h2, h3, h4, h5, h6 { padding: 12px 0; }
+
+	p { padding: 12px 0; }
+
+	ol, ul 	{ padding: 12px 0; }
+	li 		{ padding: 6px 0; }
+
+	table 	{ margin: 12px 0 18px 0; }
+	td 		{ padding: 12px; }
+
+	hr { height: 6px; }
 
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
-	
+	body { font-size: 26px; }
+
+	h1 { font-size: 64px; }
+	h2 { font-size: 54px; }
+	h3 { font-size: 44px; }
+	h4 { font-size: 34px; }
+
+	h1, h2, h3, h4, h5, h6 { padding: 16px 0; }
+
+	p { padding: 16px 0; }
+
+	ol, ul 	{ padding: 16px 0; }
+	li 		{ padding: 8px 0; }
+
+	table 	{ margin: 16px 0 24px 0; }
+	td 		{ padding: 16px; }
+
+	hr { height: 8px; }
 
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-
-	
 
 }
