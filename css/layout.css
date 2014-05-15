@@ -1,0 +1,56 @@
+/*
+ | Layouts
+ | Author: Cem Demir - cemdemir.net
+ | ------------------------------------------------------------
+ */
+
+.row {
+
+}
+
+.row * { 
+	height: 10px;
+	background: gray;
+}
+
+.row .column 				{ float: left; margin: 0 2.5%; }
+.row .column:first-child 	{ margin-left: 0; background: red; }
+.row .column:last-child 	{ margin-right: 0; background: green; }
+
+.column6 { width: 47.5%; }
+.column5 { width: 47.5%; }
+.column4 { width: 47.5%; }
+.column3 { width: 47.5%; }
+.column2 { width: 47.5%; }
+.column1 { width: 47.5%; }
+
+/* Large Devices, Wide Screens - 175 */
+@media only screen and (max-width : 1200px) {
+
+	
+
+}
+
+/* Medium Devices, Desktops - 200 - iPhone 5S */
+@media only screen and (max-width : 992px) {
+
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

@@ -4,44 +4,70 @@
  | ------------------------------------------------------------
  */
 
-form {}
-
 label {
 	display: block;
 	padding-bottom: 5px;
-	font-weight: bold;
-	font-size: 11px;
 	cursor: pointer;
 }
 
-input[type=text], input[type=password], input[type=checkbox], input[type=radio], select {
-	margin: 0;
-}
+.inline { display: inline-block; }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password], 
+input[type=checkbox], 
+input[type=radio], 
+select { margin: 0; }
+
+input[type=text], input[type=password], select {
 	width: 175px;
 	height: 30px;
 	margin: 0;
 	padding: 0 10px;
 	background: #FFF;
 	border: 1px solid #CCC;
+	font-size: 12px;
 }
+
+select { height: 32px; width: 197px; }
 
 input[type=checkbox], input[type=radio] {}
 
-select {
-	width: 175px;
-	height: 30px;
-	margin: 0;
-	padding: 0 10px;
-	background: #FFF;
-	border: 1px solid #CCC;
+input[type=submit], button { cursor: pointer; }
+
+/* Large Devices, Wide Screens - 175 */
+@media only screen and (max-width : 1200px) {
+
+	
+
 }
 
-input[type=submit], button {
-    cursor: pointer;
+/* Medium Devices, Desktops - 200 - iPhone 5S */
+@media only screen and (max-width : 992px) {
+
+	input[type=text], input[type=password], select {
+		width: 250px;
+		height: 45px;
+		padding: 0 20px;
+		font-size: 26px;
+	}
+
+	select { height: 45px; width: 272px; }
+
 }
 
-input[type=submit] {}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
 
-button {}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

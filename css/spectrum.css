@@ -1,6 +1,9 @@
 /* Reset */
 @import url(reset.css);
 
+/* Forms */
+@import url(layout.css);
+
 /* Custom fonts */
 @import url(font.css);
 
